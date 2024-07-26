@@ -25,8 +25,8 @@ To get started with the Student Management System, follow these steps:
 
 ### Clone the Repository
 ```bash
-   git clone https://github.com/chathurawimalasiri/CO528---Assignment-1.git
-   cd  CO528---Assignment-1
+   git clone https://github.com/chathurawimalasiri/chathurawimalasiri-CO528---Assignment-1
+   cd  chathurawimalasiri-CO528---Assignment-1
 ```
 ### Docker Setup
 
