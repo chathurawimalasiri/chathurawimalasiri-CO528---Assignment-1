@@ -43,3 +43,10 @@ To get started with the Student Management System, follow these steps:
 
 3. Access the Application.
    Open your browser and navigate to http://localhost:8080 to interact with the API.
+   
+4. Stop the Application
+```bash
+   docker-compose down
+```  
+### Note:
+Using `docker-compose down` is a good practice because it stops and removes all containers, networks, and volumes defined in your `docker-compose.yml`, ensuring a clean and consistent environment. This prevents resource wastage, avoids network and port conflicts, and maintains an isolated and controlled development setup, making it easier to debug, test, and manage your application effectively.
