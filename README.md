@@ -5,6 +5,8 @@
 ## Overview
 The Student Management System is a full-stack application that allows users to manage student data. The backend is built with Node.js and provides a REST API for creating, reading, updating, and deleting student records. The frontend, built with React, offers an intuitive user interface for interacting with the backend services. MongoDB is used for database management, and Docker is used for containerization, ensuring a scalable and reproducible development environment.
 
+<img src="https://wpschoolpress.com/wp-content/uploads/2023/03/student-management-system.png" alt="Student Management System" width="500"/>
+
 ## Features
 - CRUD Operations: Create, read, update, and delete student records.
 - Dockerized: Easily deploy and run the application using Docker.
