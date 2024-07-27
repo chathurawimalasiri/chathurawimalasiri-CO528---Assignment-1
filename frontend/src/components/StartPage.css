@@ -1,0 +1,15 @@
+.start-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .start-page h1 {
+    font-size: 2.5rem;
+    color: #282c34;
+  }
+  
+  .start-page p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

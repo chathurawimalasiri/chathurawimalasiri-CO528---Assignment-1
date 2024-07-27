@@ -1,8 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const studentRoutes = require('./routes/students');
 const app = express();
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Load environment variables from .env file
 dotenv.config();

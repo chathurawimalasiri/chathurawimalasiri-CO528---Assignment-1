@@ -1,0 +1,51 @@
+.student-detail {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #ffffff; /* Changed to white for a cleaner look */
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for depth */
+}
+
+.student-detail h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px; /* Increased margin for better spacing */
+  font-size: 24px; /* Larger font size for the title */
+  font-weight: 600; /* Slightly bolder font weight */
+}
+
+.student-detail p {
+  font-size: 18px;
+  margin: 12px 0; /* Increased margin for better spacing */
+  color: #555;
+}
+
+.student-detail .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; /* Increased margin for spacing between buttons */
+}
+
+.student-detail button {
+  padding: 12px 20px; /* Larger padding for a more comfortable button */
+  border: none;
+  border-radius: 6px; /* Slightly more rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.student-detail button:hover {
+  background-color: #b71c1c; /* Darker red for hover effect */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.button-back {
+  background-color: #6200ea; /* Different color for back button */
+  color: #ffffff;
+}
+
+.button-back:hover {
+  background-color: #3700b3; /* Darker blue for hover effect */
+}

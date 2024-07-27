@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    build: ./backend
     container_name: student_management_app
     environment:
       - MONGO_URI=mongodb://mongo:27017/mydatabase
@@ -19,6 +19,16 @@ services:
     container_name: student_management_mongo
     volumes:
       - mongo-data:/data/db
+    networks:
+      - app-network
+
+  frontend:
+    build: ./frontend
+    container_name: student_management_frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - app
     networks:
       - app-network
 
