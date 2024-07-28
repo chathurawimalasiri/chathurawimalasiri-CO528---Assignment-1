@@ -47,9 +47,10 @@ To get started with the Student Management System, follow these steps:
 ```
 
 3. Access the Application.
-   Open your browser and navigate to http://localhost:8080 to interact with the API.
+   - Open your browser and navigate to http://localhost:3000 to interact with the Student Management System.
+   - Open your browser and go to http://localhost:8080 to access the API. (Optional)
    
-4. Stop the Application
+5. Stop the Application
 ```bash
    docker-compose down
 ```  
